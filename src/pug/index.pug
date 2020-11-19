@@ -1,0 +1,195 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Responsive Portfolio
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.1/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Varela+Round', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i', rel='stylesheet')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
+            .container
+                a.navbar-brand.js-scroll-trigger(href='#page-top') Welcome to my portfolio
+                button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                    | Menu
+                    i.fas.fa-bars
+                #navbarResponsive.collapse.navbar-collapse
+                    ul.navbar-nav.ml-auto
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#about') About
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#projects') Projects
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#signup') Contact
+
+        // Masthead
+        header.masthead
+            .container.d-flex.h-100.align-items-center
+                .mx-auto.text-center
+                    h1.mx-auto.my-0.text-uppercase William Tutein
+                    h2.text-white-50.mx-auto.mt-2.mb-5 Junior Software Egineer with a Focus in Full-Stack Development and a Masters in Sports and exercises Psychology
+                    a.btn.btn-primary.js-scroll-trigger(href='#about') Welcome!
+
+        // About
+        section#about.about-section.text-center
+            .container
+                .row
+                    .col-lg-8.mx-auto
+                        h2.text-white.mb-4 A Little bit about myself!
+                        img.img-fluid(src='assets/img/Me.jpg', alt='William Tutein')
+                        p.text-white-50
+                            | My name is William Malcolm Tutein, I was born on Febuary 12, 1993 on the beautiful island of St. Croix to my loving parents John and Kendall Tutein. St. Croix is one of the three islands that make up the United States Virgin Islands. I was blessed to have lived and grwon with such a beautiful culture until I turned 18!
+                            br 
+                            br
+                            | When I turned 18 my parents allowed me the opportunity to move to Cheyenne, Wyoming, where I lived with my guardians Tim and Bonnie Woodard. At Wyoming my closest friends and I were blessed with an opputunity that altered our lives in a great direction for educational and athletic purposes!
+                            br      
+                            br
+                            | After I graduated from high school I attended the University of Wyoming where I obtained a B.A. in Psychology as well as played as a starting Strong Safety and Outside Linebacker for the Wyoming Cowboys football team. During my tenure in my undergrad I was challenged with many adversities but non-the-less overcame ever single one!
+                            br
+                            br
+                            | Upon graduation I decided to persue a Masters in Sports and Exercise Psyschology and graduated two years after enrolling in the program as the youngest in my class! Once I obtained my M.A. I moved to Denver, Colorado where I became a the best coach in the state for Orange theory fitness.
+                            br
+                            br
+                            |  But that wasn't enough for me so to challenged myself somemore and enrolled myself in the University of Washington Coding Bootcamp which has been the greatest challenges as well as the most exciting challenge that I have ever faced! I have gone from being computer illiterate to uderstanding mulitple languages that can transform a static website into a dynamic progressive web application!
+        // Projects
+        section#projects.projects-section.bg-light
+            .container
+                // Featured Project Row
+                .row.align-items-center.no-gutters.mb-4.mb-lg-5
+                    .col-xl-3.col-lg-3
+                        img.img-fluid.mb-3.mb-lg-0(src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSN_R7Cil3CTvzE5ty1fMEYMF-Uy3842K285w&usqp=CAU', alt='Washington state Flag')
+                    .col-xl-4.col-lg-3
+                        .featured-text.text-center.text-lg-left
+                            h4 Washington Voter Dashboard
+                            p.text-black-50.mb-0
+                                | The main purpose of this app is to provide those who are missinformed citiizens of Washington state, with access to information regarding their reginal political canidates!
+                                a.btn.btn-primary.js-scroll-trigger(href="https://wmt36.github.io/WashingtonVoterDashboard/") Voter Dashboard!
+        // Projects
+        section#projects.projects-section.bg-light
+            .container
+                // Featured Project Row
+                .row.align-items-center.no-gutters.mb-4.mb-lg-5
+                    .col-xl-3.col-lg-3
+                        img.img-fluid.mb-3.mb-lg-0(src='assets/img/HHLogo.png', alt='Washington state Flag')
+                    .col-xl-4.col-lg-3
+                        .featured-text.text-center.text-lg-left
+                            h4 Helping Hand 
+                            p.text-black-50.mb-0
+                                | With this app our main goal is to provide access to free resourses the ones who are experiencing homelesness.
+                                a.btn.btn-primary.js-scroll-trigger(href="https://project3-helping-hand.herokuapp.com/") Helping Hand!
+        // Projects
+        section#projects.projects-section.bg-light
+            .container
+                // Featured Project Row
+                .row.align-items-center.no-gutters.mb-4.mb-lg-5
+                    .col-xl-3.col-lg-3
+                        img.img-fluid.mb-3.mb-lg-0(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSku2hO_iYhJwFhlDQ3KkHg0KGcEwAluXvsA&usqp=CAU', alt='Employees')
+                    .col-xl-4.col-lg-3
+                        .featured-text.text-center.text-lg-left
+                            h4 Employee Directory 
+                            p.text-black-50.mb-0
+                                | With this app the goal was to create a Employee directory with the use of React and components. The code is created entirly by back end.
+                                a.btn.btn-primary.js-scroll-trigger(href="https://wmt36.github.io/UserDirectory/") Employee Directory!
+        // Projects
+        section#projects.projects-section.bg-light
+            .container
+                // Featured Project Row
+                .row.align-items-center.no-gutters.mb-4.mb-lg-5
+                    .col-xl-3.col-lg-3
+                        img.img-fluid.mb-3.mb-lg-0(src="https://i.imgur.com/yj5S4Zy.png", alt='burger')
+                    .col-xl-4.col-lg-5
+                        .featured-text.text-center.text-lg-left
+                            h4 Burgers App
+                            p.text-black-50.mb-0
+                                | A simple application that shows a full-stack deployed application to Heroku, that allows you to use simple CRUD commands to interact with the data base!
+                                br
+                                a.btn.btn-primary.js-scroll-trigger(href="https://afternoon-sierra-08195.herokuapp.com/") Burgers App!
+        // Projects
+        section#projects.projects-section.bg-light
+            .container
+                // Featured Project Row
+                .row.align-items-center.no-gutters.mb-4.mb-lg-5
+                    .col-xl-3.col-lg-3
+                        img.img-fluid.mb-3.mb-lg-0(src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRn8eNQtRSvw_UhZGPB3TXZGydfRMfg97Fzyg&usqp=CAU", alt='F T')
+                    .col-xl-4.col-lg-5
+                        .featured-text.text-center.text-lg-left
+                            h4 Fitness Tracker
+                            p.text-black-50.mb-0
+                                | A web application that will allow you to add new excerisces to a current workout, view previously added excerises, as well as see how your past performances have messeured through out the week. 
+                                br
+                                a.btn.btn-primary.js-scroll-trigger(href="https://agile-plains-22155.herokuapp.com/") Fitness Tracker App!
+
+        // Signup
+        section#signup.signup-section
+            .container
+                .row
+                    .col-md-10.col-lg-8.mx-auto.text-center
+                        i.far.fa-grin-beam.fa-2x.mb-2.text-white
+                        h2.text-white.mb-5 Please dont be afraid to contact me!
+                        form.form-inline.d-flex
+                            
+
+        // Contact
+        section.contact-section.bg-black
+            .container
+                .row
+                    .col-md-6.mb-3.mb-md-0
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                i.fas.fa-map-marked-alt.text-primary.mb-2
+                                h4.text-uppercase.m-0 Address
+                                hr.my-4
+                                .small.text-black-50 Cherry Creek, Denver, Colorado
+
+
+                                
+                    .col-md-6.mb-3.mb-md-0
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                i.fas.fa-envelope.text-primary.mb-2
+                                h4.text-uppercase.m-0 Email
+                                hr.my-4
+                                .small.text-black-50
+                                    a(href='#!') wtutein@gmail.com
+                .social.d-flex.justify-content-center
+                    a.mx-2(href='https://www.instagram.com/wmt36/')
+                        i.fab.fa-instagram
+                    a.mx-2(href='https://www.facebook.com/3tein')
+                        i.fab.fa-facebook-f
+                    a.mx-2(href='https://github.com/wmt36')
+                        i.fab.fa-github
+                    a.mx-2(href='https://www.linkedin.com/in/william-tutein-12718215a/')
+                        i.fab.fa-linkedin
+
+        // Footer
+        footer.footer.bg-black.small.text-center.text-white-50
+            .container
+                | Copyright © Your Website 2020
+
+        // Bootstrap core JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js')
+
+        // Third party plugin JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
