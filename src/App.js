@@ -1,15 +1,25 @@
 import React from "react";
+import NavBar from '../src/components/Navbar'
+import Home from '../src/components/Home'
+import Wrapper from '../src/components/Wrapper'
+import Container from '../src/components/Container'
+import About from '../src/components/pages/About'
+import Portfolio  from '../src/components/pages/Portfolio'
+import Contact from '../src/components/pages/Contact'
 
 function App() {
   return (
     <div>
-    <div className="card text-center">
-  <div className="card-body">
-    <h1 className="card-title">William Tutein</h1>
-    <p className="card-text">Junior Software Egineer with a focus in Full-Stack Development and a Masters in Sports and Exercise Psychology</p>
-    <a href="/about" className="btn btn-primary">Welcome</a>
-  </div>
-</div>   
+      <Wrapper>
+      <NavBar />
+      <Container>
+        <Home />
+        <About />
+     
+      
+      </Container>
+      </Wrapper>
+
     </div>
   );
 }
