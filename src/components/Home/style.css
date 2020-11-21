@@ -3,13 +3,12 @@
   background-position: left;
   background-clip: content-box;
   border: 6px solid white;
-  height: 400px;
-  width: 800px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0.23);
+  
+  
   position: relative;
   margin: 0 auto;
   margin-top: 30px;
-  opacity: .7;
+  opacity: .6;
   font-family: 'Nunito';
   font-size: 150%;
   color: #000;
@@ -18,12 +17,12 @@ body{
   
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNeESMBPa6deOAxkLvfm0-hsHBNF1z1MySVw&usqp=CAU');
   background-repeat: no-repeat;
-  background-position-x: center;
   background-size: 100%;
   background-color: black;
 
-}
 
+}
+ 
 
 
 
@@ -34,16 +33,17 @@ body{
   top: 25%;
 }
 img{  
-  
+  opacity: .7;
   border: 7px solid #000;
   width: 60%;
   height: 60%;
   position: center;
 }
 h1{
-  color: white;
+  color: rgb(0, 47, 255);
+  text-align: center;
 }
-h3{
+h4{
   font-family: 'Varela Round';
   color:white;
 }

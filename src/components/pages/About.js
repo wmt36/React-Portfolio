@@ -11,15 +11,15 @@ export default function About() {
           />
      <h1>A little bit about myself!</h1>
      <br></br>
-        <h3>My name is William Malcolm Tutein, I was born on February 12, 1993 on the beautiful island of St. Croix to my loving parents John and Kendall Tutein. St. Croix is one of the three islands that make up the United States Virgin Islands. I was blessed to have lived and grown with such a beautiful culture until I turned 18!</h3>
+        <h4>My name is William Malcolm Tutein, I was born on February 12, 1993 on the beautiful island of St. Croix to my loving parents John and Kendall Tutein. St. Croix is one of the three islands that make up the United States Virgin Islands. I was blessed to have lived and grown with such a beautiful culture until I turned 18!</h4>
      <br></br>
-        <h3>When I turned 18 my parents allowed me the opportunity to move to Cheyenne, Wyoming, where I lived with my guardians Tim and Bonnie Woodard. At Wyoming my closest friends and I were blessed with an opportunity that altered our lives in a great direction for educational and athletic purposes!</h3>
+        <h4>When I turned 18 my parents allowed me the opportunity to move to Cheyenne, Wyoming, where I lived with my guardians Tim and Bonnie Woodard. At Wyoming my closest friends and I were blessed with an opportunity that altered our lives in a great direction for educational and athletic purposes!</h4>
      <br></br>
-        <h3>After I graduated from high school I attended the University of Wyoming where I obtained a B.A. in Psychology as well as played as a starting Strong Safety and Outside Linebacker for the Wyoming Cowboys football team. During my tenure in my undergrad I was challenged with many adversities but non-the-less overcame ever single one!</h3>
+        <h4>After I graduated from high school I attended the University of Wyoming where I obtained a B.A. in Psychology as well as played as a starting Strong Safety and Outside Linebacker for the Wyoming Cowboys football team. During my tenure in my undergrad I was challenged with many adversities but non-the-less overcame ever single one!</h4>
      <br></br>   
-        <h3>Upon graduation I decided to persue a Masters in Sports and Exercise Psyschology and graduated two years after enrolling in the program as the youngest in my class! Once I obtained my M.A. I moved to Denver, Colorado where I became a the best coach in the state for Orange theory fitness.</h3>
+        <h4>Upon graduation I decided to persue a Masters in Sports and Exercise Psyschology and graduated two years after enrolling in the program as the youngest in my class! Once I obtained my M.A. I moved to Denver, Colorado where I became a the best coach in the state for Orange theory fitness.</h4>
      <br></br>
-        <h3>But that wasn't enough for me so to challenged myself some more and enrolled myself in the University of Washington Coding Bootcamp which has been the greatest challenges as well as the most exciting challenge that I have ever faced! I have gone from being computer illiterate to understanding multiple languages that can transform a static website into a dynamic progressive web application!</h3>
+        <h4>But that wasn't enough for me so to challenged myself some more and enrolled myself in the University of Washington Coding Bootcamp which has been the greatest challenges as well as the most exciting challenge that I have ever faced! I have gone from being computer illiterate to understanding multiple languages that can transform a static website into a dynamic progressive web application!</h4>
      <br></br>
     </div>
   );

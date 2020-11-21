@@ -10,15 +10,17 @@ import Contact from '../src/components/pages/Contact'
 function App() {
   return (
     <div>
-      <Wrapper>
+      
       <NavBar />
       <Container>
         <Home />
         <About />
+        <Portfolio />
+        <Contact />
      
       
       </Container>
-      </Wrapper>
+
 
     </div>
   );
